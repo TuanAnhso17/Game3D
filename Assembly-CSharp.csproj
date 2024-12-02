@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A4E8E7B9-4D17-7614-DB64-42EDACA263AE}</ProjectGuid>
+    <ProjectGuid>{C74485B6-8E4B-BC7F-62C0-4A83B7D4E8F1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -69,9 +69,7 @@
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonInput.cs" />
     <Compile Include="Assets\Scripts\DamageTester.cs" />
     <Compile Include="Assets\Scripts\AttackController.cs" />
-    <Compile Include="Assets\SwitchCamera.cs" />
     <Compile Include="Assets\Scripts\WeaponManager.cs" />
-    <Compile Include="Assets\PlayerMovement.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Camera\vThirdPersonCamera.cs" />
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vPickupItem.cs" />
@@ -80,7 +78,6 @@
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonController.cs" />
     <Compile Include="Assets\Scripts\DamagePopUpGenerator.cs" />
     <Compile Include="Assets\Scripts\UiBillboarding.cs" />
-    <Compile Include="Assets\MouseMovement.cs" />
     <Compile Include="Assets\Scripts\AttributesManager.cs" />
     <Compile Include="Assets\Scripts\IdleState.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vComment.cs" />
