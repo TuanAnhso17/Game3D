@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AttributesManager : MonoBehaviour
 {
@@ -15,6 +16,22 @@ public class AttributesManager : MonoBehaviour
     public void takeDamage(int amount)
     {
         health -= amount - (amount * armor / 100);
+        if (gameObject.CompareTag("Enemy"))
+        {
+            Slider slider = gameObject.transform.GetChild(1).transform.GetChild(0).transform.GetComponent<Slider>();
+            slider.value = health;
+            if (health <=0 )
+            {
+                EnemyDie();
+            }
+        }
+    }
+    public void EnemyDie()
+    {
+        Debug.Log("ke thu da chet");
+        Animator ani = gameObject.transform.GetChild(0).GetComponent<Animator>();
+        ani.SetBool("isDead", true);
+        Destroy(gameObject, 5f);
     }
     public void DealDamage(GameObject target)
     {
