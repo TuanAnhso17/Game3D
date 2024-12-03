@@ -15,6 +15,7 @@ public class AttributesManager : MonoBehaviour
     public float critChance = 0.5f;
     public void takeDamage(int amount)
     {
+
         health -= amount - (amount * armor / 100);
         if (gameObject.CompareTag("Enemy"))
         {
