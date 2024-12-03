@@ -19,6 +19,7 @@ public class RunState : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         agent.SetDestination(player.position);
+<<<<<<< Updated upstream
         //if (agent != null && agent.isActiveAndEnabled)
         //{
         //    agent.SetDestination(player.position);
@@ -27,6 +28,8 @@ public class RunState : StateMachineBehaviour
         //{
         //    Debug.LogWarning("NavMeshAgent is not active or not placed on a NavMesh.");
         //}
+=======
+>>>>>>> Stashed changes
 
         float distance = Vector3.Distance(player.position, animator.transform.position);
 
