@@ -19,7 +19,7 @@ public class RunState : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         agent.SetDestination(player.position);
-<<<<<<< Updated upstream
+ //Updated upstream
         //if (agent != null && agent.isActiveAndEnabled)
         //{
         //    agent.SetDestination(player.position);
@@ -28,15 +28,14 @@ public class RunState : StateMachineBehaviour
         //{
         //    Debug.LogWarning("NavMeshAgent is not active or not placed on a NavMesh.");
         //}
-=======
->>>>>>> Stashed changes
+// Stashed changes
 
         float distance = Vector3.Distance(player.position, animator.transform.position);
 
         if (distance > 10)
             animator.SetBool("isChasing", false);
         if (distance < 2.5)
-            animator.SetBool("IsAttacking", true);
+            animator.SetBool("isAttacking", true);
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
