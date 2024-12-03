@@ -5,22 +5,27 @@ using UnityEngine.AI;
 
 public class walkState : StateMachineBehaviour
 {
-    List<Transform> WayPoints = new List<Transform>();
-    NavMeshAgent agent;
-
     float time;
+
+    Transform player;
+    float chaseRange = 16;
+
+    List<Transform> waypoints = new List<Transform>();
+
+    NavMeshAgent agent;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         time = 0;
         agent = animator.gameObject.transform.parent.GetComponent<NavMeshAgent>();
+        GameObject gameObject = GameObject.FindGameObjectWithTag("Waypoint");
+        foreach (Transform t in gameObject.transform)
+        {
+            waypoints.Add(t);
+        }
+        agent.SetDestination(waypoints[Random.Range(0, waypoints.Count)].position);
 
-        GameObject gameObject = GameObject.FindGameObjectWithTag("WayPoints");
-
-        foreach (Transform tran in gameObject.transform)
-            WayPoints.Add(tran);
-
-        agent.SetDestination(WayPoints[Random.Range(0, WayPoints.Count)].position);
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -28,10 +33,19 @@ public class walkState : StateMachineBehaviour
     {
         time += Time.deltaTime;
         if (time > 10)
-            animator.SetBool("isPatrolling", false);
+        {
+            animator.SetBool("IsPatrolling", false);
+        }
+        if (agent.remainingDistance < agent.stoppingDistance)
+        {
+            agent.SetDestination(waypoints[Random.Range(0, waypoints.Count)].position);
+        }
 
-        if (agent.remainingDistance <= agent.stoppingDistance)
-            agent.SetDestination(WayPoints[Random.Range(0, WayPoints.Count)].position);
+        float distance = Vector3.Distance(player.position, animator.transform.position);
+        if (distance <= chaseRange)
+        {
+            animator.SetBool("IsChasing", true);
+        }
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
@@ -39,4 +53,5 @@ public class walkState : StateMachineBehaviour
     {
         agent.SetDestination(agent.transform.position);
     }
+
 }
