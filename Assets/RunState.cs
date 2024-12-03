@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -16,22 +18,22 @@ public class RunState : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        //agent.SetDestination(player.position);
-        if (agent != null && agent.isActiveAndEnabled)
-        {
-            agent.SetDestination(player.position);
-        }
-        else
-        {
-            Debug.LogWarning("NavMeshAgent is not active or not placed on a NavMesh.");
-        }
+        agent.SetDestination(player.position);
+        //if (agent != null && agent.isActiveAndEnabled)
+        //{
+        //    agent.SetDestination(player.position);
+        //}
+        //else
+        //{
+        //    Debug.LogWarning("NavMeshAgent is not active or not placed on a NavMesh.");
+        //}
 
         float distance = Vector3.Distance(player.position, animator.transform.position);
 
-        if (distance > 15)
+        if (distance > 10)
             animator.SetBool("isChasing", false);
         if (distance < 2.5)
-            animator.SetBool("isChasing", true);
+            animator.SetBool("IsAttacking", true);
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
