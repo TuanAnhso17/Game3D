@@ -4900,6 +4900,7 @@ GameObject:
   - component: {fileID: 8855004500916948504}
   - component: {fileID: 2760055017591347072}
   - component: {fileID: 2486459306161461933}
+  - component: {fileID: 3979539751174758940}
   m_Layer: 0
   m_Name: vfx
   m_TagString: Untagged
@@ -4986,6 +4987,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3979539751174758940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3755837273141062993}
+  m_EditorClassIdentifier: 
+  atm: {fileID: 1494669190946481772, guid: e6bfe32616374374a97d31194a980fb7, type: 3}
 --- !u!1 &3763813203291253997
 GameObject:
   m_ObjectHideFlags: 0

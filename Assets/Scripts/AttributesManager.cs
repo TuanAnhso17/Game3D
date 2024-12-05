@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -46,6 +46,16 @@ public class AttributesManager : MonoBehaviour
         }
 
     }
+
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if (other.CompareTag("Enemy")) // Kiểm tra va chạm với kẻ địch
+    //    {
+    //        Gây sát thương hoặc hiệu ứng
+    //        Debug.Log("Hit " + other.name);
+    //        Destroy(gameObject); // Hủy skill
+    //    }
+    //}
     // Start is called before the first frame update
     void Start()
     {
