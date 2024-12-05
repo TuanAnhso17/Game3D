@@ -67,6 +67,7 @@
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\ConversationManager.cs" />
     <Compile Include="Assets\FantasyEnvironments\Environments\Town\Scripts\Door.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableCondition.cs" />
+    <Compile Include="Assets\Scripts\FloatingDamage.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConversation.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Connection.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableSetParamAction.cs" />

@@ -54,31 +54,11 @@ public class SkillController : MonoBehaviour
         if (skillPrefab != null && skillSpawnPoint != null)
         {
             Instantiate(skillPrefab, skillSpawnPoint.position, skillSpawnPoint.rotation);
-            Debug.Log("Skill triggered from animation event!");
         }
         else
         {
-            Debug.LogError("Skill Prefab or Spawn Point is not assigned!");
+            Debug.LogError("khoong co spawn");
         }
     }
 
-
-
-    void OnCollisionEnter(Collision collision)
-    {
-        // Kiểm tra nếu skill va chạm với kẻ thù (tag "Enemy")
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            // Lấy đối tượng AttributesManager của kẻ thù và gọi phương thức takeDamage
-            AttributesManager enemyAttributes = collision.gameObject.GetComponent<AttributesManager>();
-            if (enemyAttributes != null)
-            {
-                enemyAttributes.takeDamage(damage);
-                Debug.Log("Enemy takes damage: " + damage);
-            }
-
-            // Sau khi va chạm, skill sẽ bị xóa khỏi scene
-            Destroy(gameObject);
-        }
-    }
 }
