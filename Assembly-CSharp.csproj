@@ -71,6 +71,7 @@
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Connection.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableSetParamAction.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\UIConversationButton.cs" />
+    <Compile Include="Assets\Scripts\SkillController.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\3D Models\Others\HealthItem\vAnimateUV.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vExtensions.cs" />
     <Compile Include="Assets\Scripts\NpcController.cs" />
@@ -99,6 +100,7 @@
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Parameter.cs" />
     <Compile Include="Assets\Scripts\RunState.cs" />
     <Compile Include="Assets\Scripts\ConversationStarter.cs" />
+    <Compile Include="Assets\Scripts\SkillController1.cs" />
     <Compile Include="Assets\Scripts\UiBillboarding.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Conversation.cs" />
     <Compile Include="Assets\DialogueEditor\Example\ExampleInputManager.cs" />
