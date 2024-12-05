@@ -10,6 +10,7 @@ public class SkillController : MonoBehaviour
     public GameObject skillPrefab;
     private Animator anim;
     private bool skillTriggered = false;
+    public int damage = 20;
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -58,6 +59,26 @@ public class SkillController : MonoBehaviour
         else
         {
             Debug.LogError("Skill Prefab or Spawn Point is not assigned!");
+        }
+    }
+
+
+
+    void OnCollisionEnter(Collision collision)
+    {
+        // Kiểm tra nếu skill va chạm với kẻ thù (tag "Enemy")
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            // Lấy đối tượng AttributesManager của kẻ thù và gọi phương thức takeDamage
+            AttributesManager enemyAttributes = collision.gameObject.GetComponent<AttributesManager>();
+            if (enemyAttributes != null)
+            {
+                enemyAttributes.takeDamage(damage);
+                Debug.Log("Enemy takes damage: " + damage);
+            }
+
+            // Sau khi va chạm, skill sẽ bị xóa khỏi scene
+            Destroy(gameObject);
         }
     }
 }
