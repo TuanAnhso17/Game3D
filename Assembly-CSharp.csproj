@@ -60,61 +60,118 @@
     <Analyzer Include="D:\Unity\Hub\Editor\2022.3.23f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\CreateBlueprintDatabase.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Inventory\DesignForInventory.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Condition.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableParameter.cs" />
+    <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabExporter.cs" />
+    <Compile Include="Assets\Scripts\AttackState.cs" />
     <Compile Include="Assets\Scripts\MovementDisabler.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\ConsumeItem.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\Blueprint.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\ConversationManager.cs" />
-    <Compile Include="Assets\RunState.cs" />
-    <Compile Include="Assets\walkState.cs" />
+    <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabPlugin.cs" />
+    <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabImporterWindow.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\SplitItem.cs" />
     <Compile Include="Assets\FantasyEnvironments\Environments\Town\Scripts\Door.cs" />
+    <Compile Include="Assets\Sketchfab For Unity\Scripts\AssetBrowser\SketchfabModelWindow.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\SlotCover.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Hotbar\Hotbar.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableCondition.cs" />
+    <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabUI.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConversation.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Connection.cs" />
-    <Compile Include="Assets\AttackState.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemType.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableSetParamAction.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\UIConversationButton.cs" />
-    <Compile Include="Assets\ConversationStarter.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\3D Models\Others\HealthItem\vAnimateUV.cs" />
+    <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabImporter.cs" />
+    <Compile Include="Assets\Scripts\ItemIn.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\CreateItemDatabase.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\WorkingStation.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vExtensions.cs" />
+    <Compile Include="Assets\Scripts\InventoryManager.cs" />
     <Compile Include="Assets\Scripts\NpcController.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonMotor.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\RandomLootSystem.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonInput.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\NodeEventHolder.cs" />
+    <Compile Include="Assets\Scripts\walkState.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Inventory\InventoryDesign.cs" />
     <Compile Include="Assets\Scripts\DamageTester.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\ShowTooltip.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\SetParamAction.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\CreateInputManager.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Tooltip\Tooltip.cs" />
     <Compile Include="Assets\Scripts\AttackController.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Inventory\Inventory.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Inventory\DragInventory.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\Item.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConnection.cs" />
-    <Compile Include="Assets\SwitchCamera.cs" />
+    <Compile Include="Assets\Scripts\ItemPickup.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableNode.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\ConversationNode.cs" />
+    <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabLogger.cs" />
     <Compile Include="Assets\Scripts\WeaponManager.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\PlayerInventory.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Camera\vThirdPersonCamera.cs" />
+    <Compile Include="Assets\Scripts\culsor.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\NPCConversation.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\RandomChestLootSystem.cs" />
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vPickupItem.cs" />
+    <Compile Include="Assets\Scripts\MiniMap.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonAnimator.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Inventory\InputManager.cs" />
     <Compile Include="Assets\Scripts\WeaponAttributes.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonController.cs" />
     <Compile Include="Assets\Scripts\DamagePopUpGenerator.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\LeftClick.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\CraftResultSlot.cs" />
+    <Compile Include="Assets\Scripts\SwitchCamera.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\CreateAttributeDatabase.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\BlueprintDatabase.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Parameter.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemDataBaseList.cs" />
+    <Compile Include="Assets\Sketchfab For Unity\Scripts\AssetBrowser\SketchfabBrowserManager.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\CraftSystem.cs" />
+    <Compile Include="Assets\Scripts\RunState.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\FirstPerson\FirstPersonController.cs" />
+    <Compile Include="Assets\Sketchfab For Unity\Scripts\AssetBrowser\SketchfabBrowserWindow.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemOnObject.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemAttribute.cs" />
+    <Compile Include="Assets\Scripts\ConversationStarter.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\PickUpItem.cs" />
     <Compile Include="Assets\Scripts\UiBillboarding.cs" />
-    <Compile Include="Assets\culsor.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\RightClick.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Conversation.cs" />
     <Compile Include="Assets\DialogueEditor\Example\ExampleInputManager.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Inventory\CloseInventory.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemAttributeList.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Inventory\StorageInventory.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Inventory\EquipmentSystem.cs" />
+    <Compile Include="Assets\Sketchfab For Unity\Scripts\Resizer.cs" />
     <Compile Include="Assets\Scripts\AttributesManager.cs" />
     <Compile Include="Assets\Scripts\IdleState.cs" />
+    <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabApi.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\DragItem.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vComment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\Import\Health_Potions\license.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Sketchfab For Unity\Dependencies\Shaders\GLTFFlipTexture.shader" />
+    <None Include="Assets\Sketchfab For Unity\Dependencies\Shaders\GLTFColorSpace.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
+    <None Include="Assets\Sketchfab For Unity\Dependencies\Shaders\GLTFPackOccMetalRough.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Fantasy Skybox FREE\ReleaseNotes.txt" />
     <None Include="Assets\Invector-3rdPersonController_LITE\README_Basic.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Sketchfab For Unity\Dependencies\Libraries\Newtonsoft.Json.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -123,13 +180,18 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Sketchfab For Unity\Dependencies\Libraries\SketchfabPlugin.dll" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\InventoryMaster\readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Sketchfab For Unity\Dependencies\Libraries\Ionic.Zip.Unity.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Sketchfab For Unity\Dependencies\Shaders\GLTFBumpToNormal.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Sketchfab For Unity\Dependencies\Libraries\GLTFSerialization.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -470,6 +532,18 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SketchfabPlugin">
+      <HintPath>Assets\Sketchfab For Unity\Dependencies\Libraries\SketchfabPlugin.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ionic.Zip.Unity">
+      <HintPath>Assets\Sketchfab For Unity\Dependencies\Libraries\Ionic.Zip.Unity.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GLTFSerialization">
+      <HintPath>Assets\Sketchfab For Unity\Dependencies\Libraries\GLTFSerialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
