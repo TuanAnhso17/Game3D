@@ -64,41 +64,28 @@
     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\DesignForInventory.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Condition.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableParameter.cs" />
-<<<<<<< HEAD
-=======
     <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabExporter.cs" />
->>>>>>> main
     <Compile Include="Assets\Scripts\AttackState.cs" />
     <Compile Include="Assets\Scripts\MovementDisabler.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Item\ConsumeItem.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\Blueprint.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\ConversationManager.cs" />
-<<<<<<< HEAD
-=======
     <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabPlugin.cs" />
     <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabImporterWindow.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Item\SplitItem.cs" />
->>>>>>> main
     <Compile Include="Assets\FantasyEnvironments\Environments\Town\Scripts\Door.cs" />
     <Compile Include="Assets\Sketchfab For Unity\Scripts\AssetBrowser\SketchfabModelWindow.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Item\SlotCover.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Hotbar\Hotbar.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableCondition.cs" />
-<<<<<<< HEAD
     <Compile Include="Assets\Scripts\FloatingDamage.cs" />
-    <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConversation.cs" />
-    <Compile Include="Assets\DialogueEditor\Assets\Scripts\Connection.cs" />
-    <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableSetParamAction.cs" />
-    <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\UIConversationButton.cs" />
-    <Compile Include="Assets\Scripts\SkillController.cs" />
-=======
     <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabUI.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConversation.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Connection.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemType.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableSetParamAction.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\UIConversationButton.cs" />
->>>>>>> main
+    <Compile Include="Assets\Scripts\SkillController.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\3D Models\Others\HealthItem\vAnimateUV.cs" />
     <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabImporter.cs" />
     <Compile Include="Assets\Scripts\ItemIn.cs" />
@@ -112,10 +99,7 @@
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonInput.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\NodeEventHolder.cs" />
     <Compile Include="Assets\Scripts\walkState.cs" />
-<<<<<<< HEAD
-=======
     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\InventoryDesign.cs" />
->>>>>>> main
     <Compile Include="Assets\Scripts\DamageTester.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Item\ShowTooltip.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\SetParamAction.cs" />
@@ -126,10 +110,7 @@
     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\DragInventory.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Item\Item.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConnection.cs" />
-<<<<<<< HEAD
-=======
     <Compile Include="Assets\Scripts\ItemPickup.cs" />
->>>>>>> main
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableNode.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\ConversationNode.cs" />
     <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabLogger.cs" />
@@ -147,16 +128,8 @@
     <Compile Include="Assets\Scripts\WeaponAttributes.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonController.cs" />
     <Compile Include="Assets\Scripts\DamagePopUpGenerator.cs" />
-<<<<<<< HEAD
-    <Compile Include="Assets\Scripts\Shooter.cs" />
-    <Compile Include="Assets\Scripts\SwitchCamera.cs" />
-    <Compile Include="Assets\DialogueEditor\Assets\Scripts\Parameter.cs" />
-    <Compile Include="Assets\Scripts\RunState.cs" />
-    <Compile Include="Assets\Scripts\ConversationStarter.cs" />
-    <Compile Include="Assets\Scripts\SkillController1.cs" />
-    <Compile Include="Assets\Scripts\UiBillboarding.cs" />
-=======
     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\LeftClick.cs" />
+    <Compile Include="Assets\Scripts\Shooter.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\CraftResultSlot.cs" />
     <Compile Include="Assets\Scripts\SwitchCamera.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Item\CreateAttributeDatabase.cs" />
@@ -171,10 +144,10 @@
     <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemOnObject.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemAttribute.cs" />
     <Compile Include="Assets\Scripts\ConversationStarter.cs" />
+    <Compile Include="Assets\Scripts\SkillController1.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Item\PickUpItem.cs" />
     <Compile Include="Assets\Scripts\UiBillboarding.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\RightClick.cs" />
->>>>>>> main
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Conversation.cs" />
     <Compile Include="Assets\DialogueEditor\Example\ExampleInputManager.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\CloseInventory.cs" />
@@ -565,8 +538,6 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-<<<<<<< HEAD
-=======
     <Reference Include="SketchfabPlugin">
       <HintPath>Assets\Sketchfab For Unity\Dependencies\Libraries\SketchfabPlugin.dll</HintPath>
       <Private>False</Private>
@@ -579,19 +550,6 @@
       <HintPath>Assets\Sketchfab For Unity\Dependencies\Libraries\GLTFSerialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Android.Types">
-      <HintPath>D:\Unity\Hub\Editor\2022.3.23f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Android.Gradle">
-      <HintPath>D:\Unity\Hub\Editor\2022.3.23f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Android.GradleProject">
-      <HintPath>D:\Unity\Hub\Editor\2022.3.23f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.GradleProject.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
->>>>>>> main
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.23f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
       <Private>False</Private>
