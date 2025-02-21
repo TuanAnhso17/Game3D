@@ -61,9 +61,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Editor\DialogueEditorWindow.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\EDITOR\suimono_module_editor.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterCreator\Script\Editor\vHelperEditor.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\Editor\vThirdPersonInputEditor.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\Editor\vInvectorStartup.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\EDITOR\suimono_object_editor.cs" />
     <Compile Include="Assets\InventoryMaster\Editor\CraftSystemEditor.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\Editor\ConversationManagerEditor.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\Editor\Resources\vEditorStartupPrefs.cs" />
@@ -75,11 +77,15 @@
     <Compile Include="Assets\InventoryMaster\Editor\InventoryEditor.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Editor\DialogueEditorNode.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Camera\Editor\vThirdPersonCameraEditor.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\EDITOR\suimono_objectfx_editor.cs" />
+    <Compile Include="Assets\Editor\CreateAssetBundles.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\EDITOR\suimono_modulefx_editor.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterCreator\Script\Editor\vCreateBasicCharacterEditor.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\Editor\vCommentEditor.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Editor\NPCConversationEditor.cs" />
     <Compile Include="Assets\InventoryMaster\Editor\IM_Manager.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Editor\DialogueEditorUtil.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\EDITOR\suimono_shorelineobject_editor.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\Editor\vInvectorWelcomeWindow.cs" />
     <Compile Include="Assets\InventoryMaster\Editor\EquipmentSystemEditor.cs" />
   </ItemGroup>
