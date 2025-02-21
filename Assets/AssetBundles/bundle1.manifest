@@ -1,0 +1,73 @@
+ManifestFileVersion: 0
+CRC: 1387044181
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c719a906f11b6eb2e5ffb5e1b10e34bb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fda6c0f4fc3a1b79f29eda885b68af14
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c719a906f11b6eb2e5ffb5e1b10e34bb
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: de769a13b1b057247ae6602cada78565, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7427a0e0f448d5c418ed1f16b304cb0d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5deb9ff5611cb9d4596d397ac57ee8c7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 03164a9d67996aa4dbd37eab8234ebe1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6f07f38e2e646414d84ac716858b84a2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f2b37d6ea28f59a4f90c0d22fa7108c6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 73fbf3aa05f6be24780438449f505aa3, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: Invector.vCharacterController.vThirdPersonMotor/vMovementSpeed
+Assets:
+- Assets/Prefabs/Player 1.prefab
+- Assets/Prefabs/Waving.fbx
+Dependencies: []
