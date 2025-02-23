@@ -72,10 +72,12 @@
     <Compile Include="Assets\InventoryMaster\Scripts\Item\ConsumeItem.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\Blueprint.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\ConversationManager.cs" />
+    <Compile Include="Assets\Scripts\Gun.cs" />
     <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabPlugin.cs" />
     <Compile Include="Assets\Scripts\TimeController.cs" />
     <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabImporterWindow.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Item\SplitItem.cs" />
+    <Compile Include="Assets\Low Poly Guns\Scripts\GunView.cs" />
     <Compile Include="Assets\FantasyEnvironments\Environments\Town\Scripts\Door.cs" />
     <Compile Include="Assets\Sketchfab For Unity\Scripts\AssetBrowser\SketchfabModelWindow.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Item\SlotCover.cs" />
@@ -178,6 +180,7 @@
     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\RightClick.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Conversation.cs" />
     <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\fx_buoyancy.cs" />
+    <Compile Include="Assets\Low Poly Guns\Scripts\GunsMenu.cs" />
     <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\SCRIPTS\sui_demo_LightHandler.cs" />
     <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\fx_soundModule.cs" />
     <Compile Include="Assets\DialogueEditor\Example\ExampleInputManager.cs" />
@@ -191,6 +194,7 @@
     <Compile Include="Assets\Scripts\AttributesManager.cs" />
     <Compile Include="Assets\Scripts\IdleState.cs" />
     <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabApi.cs" />
+    <Compile Include="Assets\Scripts\CrosshairUI.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Item\DragItem.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vComment.cs" />
   </ItemGroup>
