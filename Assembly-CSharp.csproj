@@ -219,6 +219,7 @@
     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\Sketchfab For Unity\Dependencies\Shaders\GLTFPackOccMetalRough.shader" />
     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\SuimonoFunctionLibrary.cginc" />
+    <None Include="Assets\kenney_crosshair-pack 1\License.txt" />
     <None Include="Assets\SUIMONO - WATER SYSTEM 2\_Suimono2.1_ReadMe.txt" />
     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_depthmask.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
@@ -228,6 +229,7 @@
     <None Include="Assets\Invector-3rdPersonController_LITE\README_Basic.txt" />
     <None Include="Assets\SUIMONO - WATER SYSTEM 2\RESOURCES\SUIMONO_PRESETS_Built-In Presets\SUIMONO_PRESET_Demo River Example.txt" />
     <None Include="Assets\SUIMONO - WATER SYSTEM 2\RESOURCES\SUIMONO_PRESETS_Built-In Presets\SUIMONO_PRESET_Mirror Reflection.txt" />
+    <None Include="Assets\kenney_crosshair-pack 1\Size.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_particleAlpha.shader" />
     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_particleAlphaOverlay.shader" />
