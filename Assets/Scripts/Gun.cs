@@ -2,16 +2,16 @@
 
 public class Gun : MonoBehaviour
 {
-    public ParticleSystem muzzleFlash; // Kéo Particle System vào đây trong Unity
-    public GameObject bulletPrefab;  // Prefab viên đạn
-    public Transform firePoint;      // Vị trí đầu nòng súng
-    public Camera playerCamera;      // Camera của nhân vật
-    public float bulletSpeed = 20f;  // Tốc độ viên đạn
-    public Color bulletColor = Color.yellow; // Màu viên đạn
+    public ParticleSystem muzzleFlash;
+    public GameObject bulletPrefab;
+    public Transform firePoint;
+    public Camera playerCamera;
+    public float bulletSpeed = 50f;
+    public Color bulletColor = Color.yellow;
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1")) // Nhấn chuột trái
+        if (Input.GetButtonDown("Fire1"))
         {
             Shoot();
         }
@@ -19,24 +19,27 @@ public class Gun : MonoBehaviour
 
     void Shoot()
     {
-        // Lấy hướng bắn từ Camera đến giữa màn hình
+        // Lấy hướng từ camera đến giữa màn hình
         Ray ray = playerCamera.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0));
         RaycastHit hit;
 
         Vector3 targetPoint;
         if (Physics.Raycast(ray, out hit))
         {
-            targetPoint = hit.point; // Điểm va chạm với vật thể
+            targetPoint = hit.point; // Nếu trúng vật thể, đạn sẽ bay về đó
         }
         else
         {
-            targetPoint = ray.GetPoint(100f); // Nếu không trúng gì, bắn xa 100 đơn vị
+            targetPoint = ray.GetPoint(100f); // Nếu không trúng gì, đạn bay xa 100 đơn vị
         }
 
-        // Tạo viên đạn và hướng nó đến mục tiêu
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+        // Tính hướng từ firePoint đến targetPoint
         Vector3 shootDirection = (targetPoint - firePoint.position).normalized;
 
+        // Tạo viên đạn
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.LookRotation(shootDirection));
+
+        // Gán vận tốc cho viên đạn
         Rigidbody rb = bullet.GetComponent<Rigidbody>();
         if (rb != null)
         {
@@ -45,10 +48,18 @@ public class Gun : MonoBehaviour
 
         // Đổi màu viên đạn
         Renderer bulletRenderer = bullet.GetComponent<Renderer>();
-        if (bulletRenderer != null)
+        if (bulletRenderer != null && bulletRenderer.material.HasProperty("_Color"))
         {
-            bulletRenderer.material.color = bulletColor;
+            bulletRenderer.material.SetColor("_Color", bulletColor);
         }
-        muzzleFlash.Play();
+
+        // Bật hiệu ứng nòng súng
+        if (muzzleFlash != null)
+        {
+            muzzleFlash.Play();
+        }
+
+        // Hủy viên đạn sau 3 giây
+        Destroy(bullet, 3f);
     }
 }
