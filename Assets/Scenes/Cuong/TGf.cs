@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,6 +15,8 @@ public class TGf : MonoBehaviour
     private float fireCooldown = 0f;
     private Transform target;
     private AudioSource audioSource;
+    public AudioSource shootAudioSource;
+    
 
     private void Start()
     {
@@ -57,13 +59,18 @@ public class TGf : MonoBehaviour
 
     private void Fire()
     {
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-        Rigidbody rb = bullet.GetComponent<Rigidbody>();
-        rb.velocity = firePoint.forward * 20f;
-
-        if (audioSource && shootSound)
+        Debug.Log("Firing at enemies");
+        if (fireCooldown <= 0f)
         {
-            audioSource.PlayOneShot(shootSound);
+            GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            Rigidbody rb = bullet.GetComponent<Rigidbody>();
+            rb.velocity = firePoint.forward * 20f;
+            fireCooldown = 1f / fireRate;
+        }
+
+        if (shootSound)
+        {
+            AudioSource.PlayClipAtPoint(shootSound, transform.position);
         }
     }
 }
