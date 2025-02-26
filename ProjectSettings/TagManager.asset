@@ -4,29 +4,29 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
   - WayPoints
+  - Enemy
   - Water
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - Enemy
-  - Minimap
+  - 
+  - 
+  - PlacementLayer
+  - PlacementGhosts
+  - Towers
+  - GroundEnemies
+  - FriendlyProjectiles
+  - EnemyProjectiles
+  - FlyingEnemies
+  - GroundEnemyTargettingProjectiles
   - Suimono_Water
   - Suimono_Depth
   - Suimono_Screen
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
   - 
   - 
   - 
