@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\MovementDisabler.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Item\ConsumeItem.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\Blueprint.cs" />
+    <Compile Include="Assets\Scenes\Cuong\EnemyAnimationEvent.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\ConversationManager.cs" />
     <Compile Include="Assets\Scripts\Gun.cs" />
     <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabPlugin.cs" />
@@ -140,6 +141,7 @@
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableNode.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\ConversationNode.cs" />
     <Compile Include="Assets\Scripts\HideMouse.cs" />
+    <Compile Include="Assets\Scenes\Cuong\EnemyAttack.cs" />
     <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabLogger.cs" />
     <Compile Include="Assets\Scripts\WeaponManager.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\PlayerInventory.cs" />

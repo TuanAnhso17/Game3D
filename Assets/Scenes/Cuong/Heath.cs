@@ -1,21 +1,23 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Heath : MonoBehaviour
 {
-    public float maxHealth = 100f;
-    private float currentHealth;
+    public int maxHealth = 100;
+    private int currentHealth;
 
     void Start()
     {
         currentHealth = maxHealth;
     }
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(int damagee)
     {
-        currentHealth -= damage;
-        Debug.Log(gameObject.name + " mất " + damage + " máu. Máu còn: " + currentHealth);
+        currentHealth -= damagee;
+        Debug.Log("Player nhận " + damagee + " sát thương. Máu còn: " + currentHealth);
+
         if (currentHealth <= 0)
         {
             Die();
@@ -24,7 +26,12 @@ public class Heath : MonoBehaviour
 
     void Die()
     {
-        Debug.Log(gameObject.name + " đã chết!");
-        Destroy(gameObject); // Xóa object khi chết
+        Debug.Log("Player đã chết!");
+        // Thêm hiệu ứng chết ở đây (ví dụ: animation, disable player)
+    }
+
+    internal void TakeDamage(float damage)
+    {
+        throw new NotImplementedException();
     }
 }
