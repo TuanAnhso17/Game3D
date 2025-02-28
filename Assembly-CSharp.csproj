@@ -124,6 +124,7 @@
     <Compile Include="Assets\Scripts\DamageTester.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Item\ShowTooltip.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\SetParamAction.cs" />
+    <Compile Include="Assets\Scenes\Cuong\New Folder\ss.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Item\CreateInputManager.cs" />
     <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\SuimonoObject.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Tooltip\Tooltip.cs" />
