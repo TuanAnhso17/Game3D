@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1856593763392584087}
   - component: {fileID: 6696135671068769267}
   - component: {fileID: 5743235823271947821}
+  - component: {fileID: 207429955292601789}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -53,6 +54,7 @@ MonoBehaviour:
   armor: 0
   critDamage: 1.5
   critChance: 0.5
+  damageText: {fileID: 0}
 --- !u!54 &1856593763392584087
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -123,6 +125,21 @@ NavMeshAgent:
   m_BaseOffset: -0.02
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &207429955292601789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3739726604615936145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a02a8d7c7306be348be80699919eee26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageTextPrefab: {fileID: 0}
+  displayTime: 1
+  moveSpeed: 1
 --- !u!1001 &6541218998672581303
 PrefabInstance:
   m_ObjectHideFlags: 0

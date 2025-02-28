@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/TuanAnh 1/NavMesh-Terrain 1.asset.meta
 guid: 9368dd80c6f318c49b408a7fe0b88616
 NativeFormatImporter:
+========
+guid: 5c82a3cd6743d194db4d7b705ef89f23
+DefaultImporter:
+>>>>>>>> main:Assets/Scenes/UI.unity.meta
   externalObjects: {}
   mainObjectFileID: 23800000
   userData: 
