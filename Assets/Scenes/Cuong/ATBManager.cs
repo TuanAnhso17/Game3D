@@ -46,4 +46,10 @@ public class ATBManager : MonoBehaviour
     {
 
     }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
 }

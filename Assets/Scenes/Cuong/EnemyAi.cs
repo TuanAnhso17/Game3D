@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class EnemyAi : MonoBehaviour
 {
+
     public NavMeshAgent Agent;
     public Animator animator; // Animator của enemy
 
