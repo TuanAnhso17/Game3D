@@ -5,11 +5,13 @@ using UnityEngine;
 public class EnemyAttack : MonoBehaviour
 {
     public int attackDamage = 10;
-    public AudioClip hitSound; // Âm thanh khi đánh trúng
+    public float knockbackForce = 500f;  // Lực đẩy khi đánh
+    public AudioClip hitSound;           // Âm thanh khi đánh trúng
     private AudioSource audioSource;
 
     private void Start()
     {
+        // Giả sử GameObject chứa script đã có AudioSource
         audioSource = GetComponent<AudioSource>();
     }
 
@@ -17,11 +19,23 @@ public class EnemyAttack : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // Lấy component PlayerHealth để gây sát thương
+            // Gây sát thương cho Player
             Heath playerHealth = other.GetComponent<Heath>();
             if (playerHealth != null)
             {
                 playerHealth.TakeDamage(attackDamage);
+            }
+
+            // Áp dụng knockback (văng ra) cho Player
+            Rigidbody rb = other.GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                // Tính hướng đẩy: từ vị trí enemy đến vị trí player
+                Vector3 forceDirection = other.transform.position - transform.position;
+                // Thêm một chút thành phần lên để tạo hiệu ứng văng
+                forceDirection.y = 0.5f;
+                forceDirection = forceDirection.normalized;
+                rb.AddForce(forceDirection * knockbackForce, ForceMode.Impulse);
             }
 
             // Phát âm thanh khi đánh trúng

@@ -21,8 +21,10 @@ public class Bullets : MonoBehaviour
             Rigidbody rb = other.GetComponent<Rigidbody>();
             if (rb != null)
             {
-                Vector3 forceDirection = (other.transform.position - transform.position).normalized;
+                /*Vector3 forceDirection = (other.transform.position - transform.position).normalized;*/
+                Vector3 forceDirection = other.transform.position - transform.position;
                 forceDirection.y = 0.5f;
+                forceDirection = forceDirection.normalized;
                 rb.AddForce(forceDirection * forceAmount, ForceMode.Impulse);
             }
 

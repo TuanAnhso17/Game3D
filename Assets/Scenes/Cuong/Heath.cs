@@ -6,17 +6,17 @@ using UnityEngine;
 public class Heath : MonoBehaviour
 {
     public int maxHealth = 100;
-    private int currentHealth;
+    private float currentHealth;
 
     void Start()
     {
         currentHealth = maxHealth;
     }
 
-    public void TakeDamage(int damagee)
+    public void TakeDamage(float damage)
     {
-        currentHealth -= damagee;
-        Debug.Log("Player nhận " + damagee + " sát thương. Máu còn: " + currentHealth);
+        currentHealth -= damage;
+        Debug.Log("Player nhận " + damage + " sát thương. Máu còn: " + currentHealth);
 
         if (currentHealth <= 0)
         {
@@ -30,8 +30,5 @@ public class Heath : MonoBehaviour
         // Thêm hiệu ứng chết ở đây (ví dụ: animation, disable player)
     }
 
-    internal void TakeDamage(float damage)
-    {
-        throw new NotImplementedException();
-    }
+    
 }

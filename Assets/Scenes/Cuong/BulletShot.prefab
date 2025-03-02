@@ -262,4 +262,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitSound: {fileID: 8300000, guid: a7ceb3400a5a8fa489301af336433735, type: 3}
   damage: 30
-  forceAmount: 500
+  forceAmount: 500.5
