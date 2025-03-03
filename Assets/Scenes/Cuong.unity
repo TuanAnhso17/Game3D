@@ -9361,7 +9361,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.05736351
+        value: 0.14696312
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -9382,11 +9382,11 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.97735846, g: 0.95818055, b: 0, a: 1}
+      key0: {r: 0.9764706, g: 0.13258427, b: 0, a: 1}
       key1: {r: 0.3207547, g: 0.3207547, b: 0.3207547, a: 1}
-      key2: {r: 0.9532928, g: 0.9384551, b: 0.18273431, a: 0}
+      key2: {r: 0.9529412, g: 0.3335149, b: 0.18431373, a: 1}
       key3: {r: 0.2830189, g: 0.2825266, b: 0.251513, a: 0}
-      key4: {r: 0.93962264, g: 0.931878, b: 0.20388025, a: 0}
+      key4: {r: 0.9411765, g: 0.3586066, b: 0.20392154, a: 0}
       key5: {r: 0.23529413, g: 0.23529413, b: 0.23529413, a: 0}
       key6: {r: 0.87169814, g: 0.85296446, b: 0.10361691, a: 0}
       key7: {r: 0.909804, g: 0.90196085, b: 0.20392159, a: 0}
@@ -9394,13 +9394,13 @@ LineRenderer:
       ctime1: 9483
       ctime2: 16422
       ctime3: 30609
-      ctime4: 46183
+      ctime4: 45875
       ctime5: 54972
       ctime6: 61140
       ctime7: 65535
       atime0: 0
-      atime1: 65535
-      atime2: 0
+      atime1: 40478
+      atime2: 65535
       atime3: 0
       atime4: 0
       atime5: 0
@@ -9409,7 +9409,7 @@ LineRenderer:
       m_Mode: 0
       m_ColorSpace: 0
       m_NumColorKeys: 8
-      m_NumAlphaKeys: 2
+      m_NumAlphaKeys: 3
     numCornerVertices: 0
     numCapVertices: 0
     alignment: 0
@@ -9554,7 +9554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackDamage: 30
   knockbackForce: 749.7
-  hitSound: {fileID: 0}
+  hitSound: {fileID: 8300000, guid: a7ceb3400a5a8fa489301af336433735, type: 3}
 --- !u!1001 &1200219156
 PrefabInstance:
   m_ObjectHideFlags: 0
