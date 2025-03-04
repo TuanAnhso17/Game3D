@@ -1647,6 +1647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 30
+  knockbackForce: 500
   hitSound: {fileID: 0}
 --- !u!1 &5884837695519808021
 GameObject:
@@ -1799,6 +1800,7 @@ GameObject:
   - component: {fileID: 123981222767406794}
   - component: {fileID: 3997385891794845114}
   - component: {fileID: 6678526309487262186}
+  - component: {fileID: 1469590732936848980}
   m_Layer: 0
   m_Name: EnemyTpose (2)
   m_TagString: Enemy
@@ -1814,7 +1816,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6416782219350371658}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.17540005, z: -0, w: 0.9844973}
+  m_LocalRotation: {x: 0, y: -0.17540114, z: 0, w: 0.9844971}
   m_LocalPosition: {x: 249.5, y: 0.58, z: 187.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1891,7 +1893,7 @@ MonoBehaviour:
   edgeIterations: 4
   edgeDistance: 0.5
   waypoints: []
-  attackRange: 4.2
+  attackRange: 20
 --- !u!54 &6299622031732315258
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2017,6 +2019,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponCollider: {fileID: 1893388626203063266}
+--- !u!114 &1469590732936848980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6416782219350371658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5c533ce5fde9244d94c4c6c959dfb2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
 --- !u!1 &6439987976232760241
 GameObject:
   m_ObjectHideFlags: 0

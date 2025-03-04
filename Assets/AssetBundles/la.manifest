@@ -1,0 +1,233 @@
+ManifestFileVersion: 0
+CRC: 2067941140
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 28a975b344172b62c94271ccb0c23e31
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4bf04d46cdd5901d40aebed347fad93b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 28a975b344172b62c94271ccb0c23e31
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 84
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 96
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d6714116f65f7884d972561dca0b6488, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 87c5141853cbab7438b034790b1a108f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5e37b6c61f752e246a02e2b1b6f7189f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b0214a7211ef2df4b8b6663ca1075a70, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f8550fcf5aa77894ea27473123821c94, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 236e497d1a7154743af85bdcbf06ee23, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 04b42e7ea9447db4f911326fd80b999a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0fdfe3ca26841a84e97bd603013cc573, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7427a0e0f448d5c418ed1f16b304cb0d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5deb9ff5611cb9d4596d397ac57ee8c7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b8be116f05c6b004d8bc1b9010d09485, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 971a78fdb81f20642a95a38ca9f06d4f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 03164a9d67996aa4dbd37eab8234ebe1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6033359578cfc06498a6d063ddaa1af3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d1c6128b7879419469bbb1104828c59b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: caeb605cd9a3ef74f8fb2d33b6880d8a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 11de6ec0c6a606746ba5f4b5caf14322, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a5e424b8153d844fb705a36e96d6b15, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6f07f38e2e646414d84ac716858b84a2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d162795ea595974bbfa0be3c32b8c20, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f2b37d6ea28f59a4f90c0d22fa7108c6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 73fbf3aa05f6be24780438449f505aa3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1f95c1a1812e6ae4bb947fbe0f159940, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6c9ff8d858be31e4380c22b078be671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bc87271197c85734d95f97b5ad973718, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 396952196040b39439da920e6d5792f4, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 154
+  Script: {instanceID: 0}
+- Class: 156
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 218
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 1953259897
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: Invector.vCharacterController.vThirdPersonMotor/vMovementSpeed
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FaceInfo_Legacy
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FontAssetCreationSettings
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.KerningTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_Character
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontFeatureTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontWeightPair
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphPairAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphValueRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.VertexGradient
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.ArgumentCache
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentListenerMode
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.RectOffset
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.FaceInfo
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.Glyph
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphMetrics
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphRect
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ScrollRect/ScrollRectEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Toggle/ToggleEvent
+Assets:
+- Assets/Prefabss/BigPotion.prefab
+- Assets/Prefabss/Player 1.prefab
+- Assets/Prefabss/Canvas.prefab
+- Assets/Prefabss/InventoryManager.prefab
+- Assets/Prefabss/Terrain.prefab
+- Assets/Prefabss/SUIMONO_Module.prefab
+- Assets/Prefabss/SUIMONO_Surface.prefab
+- Assets/Prefabss/CanvasMyInventory.prefab
+- Assets/Prefabss/TimeController.prefab
+- Assets/Prefabss/saveloadgame.prefab
+- Assets/Prefabss/SmallPotion.prefab
+- Assets/Prefabss/MediumPotion.prefab
+Dependencies: []

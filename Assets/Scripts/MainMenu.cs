@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     public void PlayGame()
     {
-        SceneManager.LoadScene(2); // Tải scene có index 1, đảm bảo bạn đã thêm scene vào Build Settings
+        SceneManager.LoadScene(1); // Tải scene có index 1, đảm bảo bạn đã thêm scene vào Build Settings
     }
 
     // Hàm thoát game
