@@ -11,7 +11,7 @@ public class LoadingScene : MonoBehaviour
     public TextMeshProUGUI loadingText;
 
     private string bundleUrl = "https://drive.google.com/uc?export=download&id=1U8dx0nw9nzJAhDwEDR4A2uAhi1k2OLxR";
-    private string sceneToLoad = "Real"; // Tên scene chính
+    private string sceneToLoad = "Real"; // Tên scene
 
     void Start()
     {
@@ -44,7 +44,7 @@ public class LoadingScene : MonoBehaviour
                     Debug.Log("Tải thành công AssetBundle!");
                     loadingText.text = "Hoàn tất!";
 
-                    // Load các Prefabs từ AssetBundle
+                    // Load các Prefabs
                     string[] assetNames = bundle.GetAllAssetNames();
                     foreach (string assetName in assetNames)
                     {
