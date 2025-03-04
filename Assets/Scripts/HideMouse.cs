@@ -1,23 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class HideMouse : MonoBehaviour
 {
-    // Start is called before the first frame update
-    private void Start()
+    private bool isCursorLocked = true; // Ban đầu chuột hiển thị
+
+    void Start()
     {
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        SetCursorState(); // Đặt trạng thái chuột ban đầu
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
+            isCursorLocked = !isCursorLocked; // Đảo trạng thái chuột
+            SetCursorState();
         }
     }
+
+    void SetCursorState()
+    {
+        Cursor.visible = !isCursorLocked; // Khi khóa, chuột ẩn; khi mở, chuột hiện
+        Cursor.lockState = isCursorLocked ? CursorLockMode.Locked : CursorLockMode.None;
+    }
 }
+
